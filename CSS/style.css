@@ -1,0 +1,104 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    line-height: 1.5;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    margin: 0;
+  }
+  
+  p {
+    margin: 0;
+  }
+  
+  /* Nav Bar */
+
+  .navbar-style {
+    background-image: url(../Image/transparency.png);
+  }
+
+  .nav-buttons {
+  justify-content: end; 
+}
+
+.navbar-brand{
+    background-color: aqua;
+    padding: 3px;
+}
+
+/* Hero */
+
+.hero {
+    height: 400px;
+    background-image: url(../Image/02-hero-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.cat {
+    height: 200px;
+    
+}
+
+h1 {
+    background-color: aqua;
+}
+.hero-container {
+    width: 600px;
+    margin-right: 0;
+}
+
+/* About Me */
+
+.about-me-info {
+    border-left: 1px solid #000;
+}
+
+/* Work */
+
+.surf-report {
+    background-image: url(../Image/02-portfolio-4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 300px;
+    border-left: 1px solid #000;
+}
+
+.led-wall {
+    background-image: url(../Image/02-portfolio-1.jpg);
+    background-size: cover;
+    height: 150px;
+}
+
+.calculator {
+    background-image: url(../Image/02-portfolio-2.jpg);
+    background-size: cover;
+}
+
+.puzzles {
+    background-image: url(../Image/02-portfolio-3.jpg);
+    background-size: cover;
+    height: 150px;
+}
+
+.run-buddy {
+background-image: url(../Image/02-run-buddy.jpg);
+background-size: cover;
+}
+
+/* Footer */
+
+.footer {
+    height: 70px;
+}
