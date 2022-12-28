@@ -65,9 +65,16 @@ h1 {
     border-left: 1px solid #000;
 }
 
+.container {
+    padding-top: 50px;
+}
 /* Work */
 
-.surf-report {
+.cardHolder {
+    padding-top: 20px;
+}
+
+/*.surf-report {
     background-image: url(../Image/02-portfolio-4.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -96,6 +103,8 @@ h1 {
 background-image: url(../Image/02-run-buddy.jpg);
 background-size: cover;
 }
+*/
+
 
 /* Footer */
 
