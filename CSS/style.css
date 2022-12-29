@@ -29,8 +29,14 @@
   }
 
   .nav-buttons {
-  justify-content: end; 
+  justify-content: end;
+  
 }
+
+.navbar-nav{
+    background-color: aqua;
+}
+
 
 .navbar-brand{
     background-color: aqua;
@@ -74,6 +80,9 @@ h1 {
     padding-top: 20px;
 }
 
+#work-info{
+    border-left: 1px solid #000;
+}
 /*.surf-report {
     background-image: url(../Image/02-portfolio-4.jpg);
     background-size: cover;
@@ -109,5 +118,30 @@ background-size: cover;
 /* Footer */
 
 .footer {
-    height: 70px;
+    height: 100px;
+}
+
+.contact-info {
+    border-left: 1px solid #000;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.contact-info a:visited {
+    color: #000;
+    background-color: transparent;
+    text-decoration: none;
+      }
+
+.contact-info a:hover {
+    color: aqua;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+
+ .contact-info a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
 }
